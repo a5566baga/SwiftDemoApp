@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57ACE3D1DCB15AB00EB6D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE3C1DCB15AB00EB6D23 /* AppDelegate.swift */; };
+		B57ACE3F1DCB15AB00EB6D23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE3E1DCB15AB00EB6D23 /* ViewController.swift */; };
+		B57ACE421DCB15AB00EB6D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57ACE401DCB15AB00EB6D23 /* Main.storyboard */; };
+		B57ACE441DCB15AB00EB6D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57ACE431DCB15AB00EB6D23 /* Assets.xcassets */; };
+		B57ACE471DCB15AB00EB6D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57ACE451DCB15AB00EB6D23 /* LaunchScreen.storyboard */; };
+		B57ACE521DCB15AB00EB6D23 /* LiveLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE511DCB15AB00EB6D23 /* LiveLifeTests.swift */; };
+		B57ACE5D1DCB15AB00EB6D23 /* LiveLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE5C1DCB15AB00EB6D23 /* LiveLifeUITests.swift */; };
+		B57ACE6E1DCB1CDF00EB6D23 /* YKCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE6B1DCB1CDF00EB6D23 /* YKCreator.swift */; };
+		B57ACE6F1DCB1CDF00EB6D23 /* YKLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE6C1DCB1CDF00EB6D23 /* YKLive.swift */; };
+		B57ACE701DCB1CDF00EB6D23 /* YKLiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE6D1DCB1CDF00EB6D23 /* YKLiveStream.swift */; };
+		B57ACE721DCB1D8D00EB6D23 /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE711DCB1D8D00EB6D23 /* YKCell.swift */; };
+		B57ACE741DCB236400EB6D23 /* LivesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE731DCB236400EB6D23 /* LivesTableViewController.swift */; };
+		B57ACE8D1DCB3C6D00EB6D23 /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE8C1DCB3C6D00EB6D23 /* LiveTableViewCell.swift */; };
+		B57ACE951DCB6DE700EB6D23 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57ACE8F1DCB6DE700EB6D23 /* IJKMediaFramework.framework */; };
+		B57ACE961DCB6DE700EB6D23 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B57ACE901DCB6DE700EB6D23 /* libbz2.tbd */; };
+		B57ACE971DCB6DE700EB6D23 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B57ACE911DCB6DE700EB6D23 /* libcrypto.a */; };
+		B57ACE981DCB6DE700EB6D23 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B57ACE921DCB6DE700EB6D23 /* librtmp.a */; };
+		B57ACE991DCB6DE700EB6D23 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B57ACE931DCB6DE700EB6D23 /* libssl.a */; };
+		B57ACE9A1DCB6DE700EB6D23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B57ACE941DCB6DE700EB6D23 /* libz.tbd */; };
+		B57ACEA31DCB78C500EB6D23 /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57ACE9F1DCB78C500EB6D23 /* emmitParticles.swift */; };
+		B57ACEA41DCB78C500EB6D23 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B57ACEA21DCB78C500EB6D23 /* DMHeartFlyView.m */; };
+		C8AF4AE9DFCA35CAD1F06CA6 /* Pods_LiveLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59651B628AFE6B79A7993A62 /* Pods_LiveLife.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57ACE4E1DCB15AB00EB6D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57ACE311DCB15AB00EB6D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57ACE381DCB15AB00EB6D23;
+			remoteInfo = LiveLife;
+		};
+		B57ACE591DCB15AB00EB6D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57ACE311DCB15AB00EB6D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57ACE381DCB15AB00EB6D23;
+			remoteInfo = LiveLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59651B628AFE6B79A7993A62 /* Pods_LiveLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D24190921360076E97B7564 /* Pods-LiveLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveLife/Pods-LiveLife.release.xcconfig"; sourceTree = "<group>"; };
+		B57ACE391DCB15AB00EB6D23 /* LiveLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57ACE3C1DCB15AB00EB6D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B57ACE3E1DCB15AB00EB6D23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B57ACE411DCB15AB00EB6D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57ACE431DCB15AB00EB6D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B57ACE461DCB15AB00EB6D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B57ACE481DCB15AB00EB6D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57ACE4D1DCB15AB00EB6D23 /* LiveLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57ACE511DCB15AB00EB6D23 /* LiveLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLifeTests.swift; sourceTree = "<group>"; };
+		B57ACE531DCB15AB00EB6D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57ACE581DCB15AB00EB6D23 /* LiveLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57ACE5C1DCB15AB00EB6D23 /* LiveLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLifeUITests.swift; sourceTree = "<group>"; };
+		B57ACE5E1DCB15AB00EB6D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57ACE6B1DCB1CDF00EB6D23 /* YKCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCreator.swift; sourceTree = "<group>"; };
+		B57ACE6C1DCB1CDF00EB6D23 /* YKLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLive.swift; sourceTree = "<group>"; };
+		B57ACE6D1DCB1CDF00EB6D23 /* YKLiveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLiveStream.swift; sourceTree = "<group>"; };
+		B57ACE711DCB1D8D00EB6D23 /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
+		B57ACE731DCB236400EB6D23 /* LivesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivesTableViewController.swift; sourceTree = "<group>"; };
+		B57ACE8C1DCB3C6D00EB6D23 /* LiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		B57ACE8F1DCB6DE700EB6D23 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		B57ACE901DCB6DE700EB6D23 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		B57ACE911DCB6DE700EB6D23 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		B57ACE921DCB6DE700EB6D23 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		B57ACE931DCB6DE700EB6D23 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		B57ACE941DCB6DE700EB6D23 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
+		B57ACE9B1DCB6E2800EB6D23 /* LiveLife-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveLife-Bridging-Header.h"; sourceTree = "<group>"; };
+		B57ACE9F1DCB78C500EB6D23 /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
+		B57ACEA11DCB78C500EB6D23 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		B57ACEA21DCB78C500EB6D23 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		C3B50996ACDB461CB64BE82F /* Pods-LiveLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveLife/Pods-LiveLife.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57ACE361DCB15AB00EB6D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57ACE981DCB6DE700EB6D23 /* librtmp.a in Frameworks */,
+				B57ACE961DCB6DE700EB6D23 /* libbz2.tbd in Frameworks */,
+				B57ACE9A1DCB6DE700EB6D23 /* libz.tbd in Frameworks */,
+				B57ACE991DCB6DE700EB6D23 /* libssl.a in Frameworks */,
+				C8AF4AE9DFCA35CAD1F06CA6 /* Pods_LiveLife.framework in Frameworks */,
+				B57ACE971DCB6DE700EB6D23 /* libcrypto.a in Frameworks */,
+				B57ACE951DCB6DE700EB6D23 /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57ACE4A1DCB15AB00EB6D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57ACE551DCB15AB00EB6D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3EC95EA935D8A0F0FB7F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59651B628AFE6B79A7993A62 /* Pods_LiveLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B57ACE301DCB15AB00EB6D23 = {
+			isa = PBXGroup;
+			children = (
+				B57ACE3B1DCB15AB00EB6D23 /* LiveLife */,
+				B57ACE501DCB15AB00EB6D23 /* LiveLifeTests */,
+				B57ACE5B1DCB15AB00EB6D23 /* LiveLifeUITests */,
+				B57ACE3A1DCB15AB00EB6D23 /* Products */,
+				C86737C36C96315FC525AE6D /* Pods */,
+				3E3EC95EA935D8A0F0FB7F87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B57ACE3A1DCB15AB00EB6D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACE391DCB15AB00EB6D23 /* LiveLife.app */,
+				B57ACE4D1DCB15AB00EB6D23 /* LiveLifeTests.xctest */,
+				B57ACE581DCB15AB00EB6D23 /* LiveLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57ACE3B1DCB15AB00EB6D23 /* LiveLife */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACEA51DCB78CC00EB6D23 /* foundation */,
+				B57ACE9E1DCB78C500EB6D23 /* emmitParticles */,
+				B57ACEA01DCB78C500EB6D23 /* HeartFlyView */,
+				B57ACE6A1DCB1CDF00EB6D23 /* Model */,
+				B57ACE3C1DCB15AB00EB6D23 /* AppDelegate.swift */,
+				B57ACE3E1DCB15AB00EB6D23 /* ViewController.swift */,
+				B57ACE731DCB236400EB6D23 /* LivesTableViewController.swift */,
+				B57ACE8C1DCB3C6D00EB6D23 /* LiveTableViewCell.swift */,
+				B57ACE401DCB15AB00EB6D23 /* Main.storyboard */,
+				B57ACE431DCB15AB00EB6D23 /* Assets.xcassets */,
+				B57ACE451DCB15AB00EB6D23 /* LaunchScreen.storyboard */,
+				B57ACE481DCB15AB00EB6D23 /* Info.plist */,
+				B57ACE9B1DCB6E2800EB6D23 /* LiveLife-Bridging-Header.h */,
+			);
+			path = LiveLife;
+			sourceTree = "<group>";
+		};
+		B57ACE501DCB15AB00EB6D23 /* LiveLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACE511DCB15AB00EB6D23 /* LiveLifeTests.swift */,
+				B57ACE531DCB15AB00EB6D23 /* Info.plist */,
+			);
+			path = LiveLifeTests;
+			sourceTree = "<group>";
+		};
+		B57ACE5B1DCB15AB00EB6D23 /* LiveLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACE5C1DCB15AB00EB6D23 /* LiveLifeUITests.swift */,
+				B57ACE5E1DCB15AB00EB6D23 /* Info.plist */,
+			);
+			path = LiveLifeUITests;
+			sourceTree = "<group>";
+		};
+		B57ACE6A1DCB1CDF00EB6D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACE6B1DCB1CDF00EB6D23 /* YKCreator.swift */,
+				B57ACE6C1DCB1CDF00EB6D23 /* YKLive.swift */,
+				B57ACE6D1DCB1CDF00EB6D23 /* YKLiveStream.swift */,
+				B57ACE711DCB1D8D00EB6D23 /* YKCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B57ACE9E1DCB78C500EB6D23 /* emmitParticles */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACE9F1DCB78C500EB6D23 /* emmitParticles.swift */,
+			);
+			path = emmitParticles;
+			sourceTree = "<group>";
+		};
+		B57ACEA01DCB78C500EB6D23 /* HeartFlyView */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACEA11DCB78C500EB6D23 /* DMHeartFlyView.h */,
+				B57ACEA21DCB78C500EB6D23 /* DMHeartFlyView.m */,
+			);
+			path = HeartFlyView;
+			sourceTree = "<group>";
+		};
+		B57ACEA51DCB78CC00EB6D23 /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B57ACE8F1DCB6DE700EB6D23 /* IJKMediaFramework.framework */,
+				B57ACE901DCB6DE700EB6D23 /* libbz2.tbd */,
+				B57ACE911DCB6DE700EB6D23 /* libcrypto.a */,
+				B57ACE921DCB6DE700EB6D23 /* librtmp.a */,
+				B57ACE931DCB6DE700EB6D23 /* libssl.a */,
+				B57ACE941DCB6DE700EB6D23 /* libz.tbd */,
+			);
+			name = foundation;
+			sourceTree = "<group>";
+		};
+		C86737C36C96315FC525AE6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3B50996ACDB461CB64BE82F /* Pods-LiveLife.debug.xcconfig */,
+				6D24190921360076E97B7564 /* Pods-LiveLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57ACE381DCB15AB00EB6D23 /* LiveLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57ACE611DCB15AB00EB6D23 /* Build configuration list for PBXNativeTarget "LiveLife" */;
+			buildPhases = (
+				5A8AEAE1FE1AB7B0E3ED448B /* [CP] Check Pods Manifest.lock */,
+				B57ACE351DCB15AB00EB6D23 /* Sources */,
+				B57ACE361DCB15AB00EB6D23 /* Frameworks */,
+				B57ACE371DCB15AB00EB6D23 /* Resources */,
+				5BDE5037E586FFC5C0A6578B /* [CP] Embed Pods Frameworks */,
+				7F0200E104412E38976E6FF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveLife;
+			productName = LiveLife;
+			productReference = B57ACE391DCB15AB00EB6D23 /* LiveLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B57ACE4C1DCB15AB00EB6D23 /* LiveLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57ACE641DCB15AB00EB6D23 /* Build configuration list for PBXNativeTarget "LiveLifeTests" */;
+			buildPhases = (
+				B57ACE491DCB15AB00EB6D23 /* Sources */,
+				B57ACE4A1DCB15AB00EB6D23 /* Frameworks */,
+				B57ACE4B1DCB15AB00EB6D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57ACE4F1DCB15AB00EB6D23 /* PBXTargetDependency */,
+			);
+			name = LiveLifeTests;
+			productName = LiveLifeTests;
+			productReference = B57ACE4D1DCB15AB00EB6D23 /* LiveLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B57ACE571DCB15AB00EB6D23 /* LiveLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57ACE671DCB15AB00EB6D23 /* Build configuration list for PBXNativeTarget "LiveLifeUITests" */;
+			buildPhases = (
+				B57ACE541DCB15AB00EB6D23 /* Sources */,
+				B57ACE551DCB15AB00EB6D23 /* Frameworks */,
+				B57ACE561DCB15AB00EB6D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57ACE5A1DCB15AB00EB6D23 /* PBXTargetDependency */,
+			);
+			name = LiveLifeUITests;
+			productName = LiveLifeUITests;
+			productReference = B57ACE581DCB15AB00EB6D23 /* LiveLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57ACE311DCB15AB00EB6D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张增强";
+				TargetAttributes = {
+					B57ACE381DCB15AB00EB6D23 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P28THB67HH;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					B57ACE4C1DCB15AB00EB6D23 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B57ACE381DCB15AB00EB6D23;
+					};
+					B57ACE571DCB15AB00EB6D23 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B57ACE381DCB15AB00EB6D23;
+					};
+				};
+			};
+			buildConfigurationList = B57ACE341DCB15AB00EB6D23 /* Build configuration list for PBXProject "LiveLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57ACE301DCB15AB00EB6D23;
+			productRefGroup = B57ACE3A1DCB15AB00EB6D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57ACE381DCB15AB00EB6D23 /* LiveLife */,
+				B57ACE4C1DCB15AB00EB6D23 /* LiveLifeTests */,
+				B57ACE571DCB15AB00EB6D23 /* LiveLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57ACE371DCB15AB00EB6D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57ACE471DCB15AB00EB6D23 /* LaunchScreen.storyboard in Resources */,
+				B57ACE441DCB15AB00EB6D23 /* Assets.xcassets in Resources */,
+				B57ACE421DCB15AB00EB6D23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57ACE4B1DCB15AB00EB6D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57ACE561DCB15AB00EB6D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A8AEAE1FE1AB7B0E3ED448B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BDE5037E586FFC5C0A6578B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveLife/Pods-LiveLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0200E104412E38976E6FF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveLife/Pods-LiveLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57ACE351DCB15AB00EB6D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57ACE3F1DCB15AB00EB6D23 /* ViewController.swift in Sources */,
+				B57ACE6E1DCB1CDF00EB6D23 /* YKCreator.swift in Sources */,
+				B57ACE701DCB1CDF00EB6D23 /* YKLiveStream.swift in Sources */,
+				B57ACEA31DCB78C500EB6D23 /* emmitParticles.swift in Sources */,
+				B57ACEA41DCB78C500EB6D23 /* DMHeartFlyView.m in Sources */,
+				B57ACE721DCB1D8D00EB6D23 /* YKCell.swift in Sources */,
+				B57ACE741DCB236400EB6D23 /* LivesTableViewController.swift in Sources */,
+				B57ACE8D1DCB3C6D00EB6D23 /* LiveTableViewCell.swift in Sources */,
+				B57ACE3D1DCB15AB00EB6D23 /* AppDelegate.swift in Sources */,
+				B57ACE6F1DCB1CDF00EB6D23 /* YKLive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57ACE491DCB15AB00EB6D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57ACE521DCB15AB00EB6D23 /* LiveLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57ACE541DCB15AB00EB6D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57ACE5D1DCB15AB00EB6D23 /* LiveLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B57ACE4F1DCB15AB00EB6D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57ACE381DCB15AB00EB6D23 /* LiveLife */;
+			targetProxy = B57ACE4E1DCB15AB00EB6D23 /* PBXContainerItemProxy */;
+		};
+		B57ACE5A1DCB15AB00EB6D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57ACE381DCB15AB00EB6D23 /* LiveLife */;
+			targetProxy = B57ACE591DCB15AB00EB6D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B57ACE401DCB15AB00EB6D23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57ACE411DCB15AB00EB6D23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57ACE451DCB15AB00EB6D23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57ACE461DCB15AB00EB6D23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57ACE5F1DCB15AB00EB6D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B57ACE601DCB15AB00EB6D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57ACE621DCB15AB00EB6D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B50996ACDB461CB64BE82F /* Pods-LiveLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = P28THB67HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveLife",
+				);
+				INFOPLIST_FILE = LiveLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveLife",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.LiveLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveLife/LiveLife-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B57ACE631DCB15AB00EB6D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D24190921360076E97B7564 /* Pods-LiveLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = P28THB67HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveLife",
+				);
+				INFOPLIST_FILE = LiveLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveLife",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.LiveLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveLife/LiveLife-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B57ACE651DCB15AB00EB6D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.LiveLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveLife.app/LiveLife";
+			};
+			name = Debug;
+		};
+		B57ACE661DCB15AB00EB6D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.LiveLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveLife.app/LiveLife";
+			};
+			name = Release;
+		};
+		B57ACE681DCB15AB00EB6D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LiveLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.LiveLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LiveLife;
+			};
+			name = Debug;
+		};
+		B57ACE691DCB15AB00EB6D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LiveLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.LiveLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LiveLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57ACE341DCB15AB00EB6D23 /* Build configuration list for PBXProject "LiveLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57ACE5F1DCB15AB00EB6D23 /* Debug */,
+				B57ACE601DCB15AB00EB6D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57ACE611DCB15AB00EB6D23 /* Build configuration list for PBXNativeTarget "LiveLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57ACE621DCB15AB00EB6D23 /* Debug */,
+				B57ACE631DCB15AB00EB6D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57ACE641DCB15AB00EB6D23 /* Build configuration list for PBXNativeTarget "LiveLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57ACE651DCB15AB00EB6D23 /* Debug */,
+				B57ACE661DCB15AB00EB6D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57ACE671DCB15AB00EB6D23 /* Build configuration list for PBXNativeTarget "LiveLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57ACE681DCB15AB00EB6D23 /* Debug */,
+				B57ACE691DCB15AB00EB6D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57ACE311DCB15AB00EB6D23 /* Project object */;
+}
